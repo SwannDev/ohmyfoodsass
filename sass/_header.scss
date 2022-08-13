@@ -1,0 +1,38 @@
+header {
+	background-color: white;
+	width: 100%;
+	h1 { font-family: "Shrikhand", sans-serif;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+	.location-box {
+		background-color: #eaeaea;
+		width: 100%;
+		height: 65px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-family: "Roboto";
+		font-size: 18px;
+		font-weight: 700;
+		border-top: inset;
+	}
+}
+.icon-location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: auto;
+	border-radius: 14px 0 0 14px;
+}
+.fa-map-marker-alt {
+	font-size: 17px;
+	&:before { margin-right: 10px;
+}    }
